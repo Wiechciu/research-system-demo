@@ -1,0 +1,44 @@
+[gd_scene load_steps=4 format=3 uid="uid://dekoeja4o1fqk"]
+
+[ext_resource type="Script" uid="uid://b2wygrajndq8r" path="res://research_system/research_ui/research_ui.gd" id="1_myfkd"]
+[ext_resource type="PackedScene" uid="uid://cbqikw7txtm3e" path="res://research_system/research_ui/research_ui_item.tscn" id="2_skbvo"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_h33up"]
+content_margin_left = 5.0
+content_margin_top = 5.0
+content_margin_right = 5.0
+content_margin_bottom = 5.0
+bg_color = Color(0.1, 0.1, 0.1, 0.6)
+corner_radius_top_left = 3
+corner_radius_top_right = 3
+corner_radius_bottom_right = 3
+corner_radius_bottom_left = 3
+corner_detail = 5
+
+[node name="ResearchUi" type="PanelContainer"]
+offset_right = 372.0
+offset_bottom = 74.0
+theme_override_styles/panel = SubResource("StyleBoxFlat_h33up")
+script = ExtResource("1_myfkd")
+
+[node name="ResearchContainer" type="VBoxContainer" parent="."]
+unique_name_in_owner = true
+layout_mode = 2
+
+[node name="ResearchUiItem" parent="ResearchContainer" instance=ExtResource("2_skbvo")]
+layout_mode = 2
+
+[node name="ResearchUiItem2" parent="ResearchContainer" instance=ExtResource("2_skbvo")]
+layout_mode = 2
+
+[node name="ResearchUiItem3" parent="ResearchContainer" instance=ExtResource("2_skbvo")]
+layout_mode = 2
+
+[node name="ResearchUiItem4" parent="ResearchContainer" instance=ExtResource("2_skbvo")]
+layout_mode = 2
+
+[node name="ResearchUiItem5" parent="ResearchContainer" instance=ExtResource("2_skbvo")]
+layout_mode = 2
+
+[node name="ResearchUiItem6" parent="ResearchContainer" instance=ExtResource("2_skbvo")]
+layout_mode = 2

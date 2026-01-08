@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Research" load_steps=2 format=3 uid="uid://ut3dj1oicocl"]
+
+[ext_resource type="Script" uid="uid://dllmkjgfkwrqi" path="res://research_system/research_system/research.gd" id="1_3ovah"]
+
+[resource]
+script = ExtResource("1_3ovah")
+name = "Nuclear power"
+description = "Unlocks nuclear power"
+research_points_to_finish = 500.0
+metadata/_custom_type_script = "uid://dllmkjgfkwrqi"

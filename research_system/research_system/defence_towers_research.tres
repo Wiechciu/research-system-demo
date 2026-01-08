@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Research" load_steps=2 format=3 uid="uid://bhtx432d1t8nw"]
+
+[ext_resource type="Script" uid="uid://dllmkjgfkwrqi" path="res://research_system/research_system/research.gd" id="1_6eu6d"]
+
+[resource]
+script = ExtResource("1_6eu6d")
+name = "Defence towers"
+description = "Unlocks Defence towers buildings"
+research_points_to_finish = 30.0
+metadata/_custom_type_script = "uid://dllmkjgfkwrqi"

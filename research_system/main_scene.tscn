@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dv4gpuc5tjdl1"]
+
+[ext_resource type="Script" uid="uid://bapi3moqxcwu1" path="res://research_system/research_system/research_manager.gd" id="1_i5rkr"]
+[ext_resource type="PackedScene" uid="uid://dekoeja4o1fqk" path="res://research_system/research_ui/research_ui.tscn" id="3_4e4br"]
+
+[node name="MainScene" type="Node"]
+
+[node name="ResearchManager" type="Node" parent="."]
+script = ExtResource("1_i5rkr")
+metadata/_custom_type_script = "uid://bapi3moqxcwu1"
+
+[node name="ResearchUi" parent="." node_paths=PackedStringArray("research_manager") instance=ExtResource("3_4e4br")]
+research_manager = NodePath("../ResearchManager")

@@ -1,0 +1,10 @@
+[gd_resource type="Resource" script_class="Research" load_steps=2 format=3 uid="uid://chdw4r4m3xkkl"]
+
+[ext_resource type="Script" uid="uid://dllmkjgfkwrqi" path="res://research_system/research_system/research.gd" id="1_g827i"]
+
+[resource]
+script = ExtResource("1_g827i")
+name = "Food management"
+description = "Improves food management"
+research_points_to_finish = 20.0
+metadata/_custom_type_script = "uid://dllmkjgfkwrqi"
